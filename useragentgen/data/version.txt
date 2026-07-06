@@ -1,0 +1,17 @@
+# Chrome
+Chrome/{115-134}.0.{5000-6999}.{0-250}
+
+# Firefox
+Firefox/{115-135}.0
+
+# Firefox (rv tag, desktop only)
+rv:{115-135}.0
+
+# Safari
+Version/{15-18}.{0-6}
+
+# Edge (Edg token)
+Edg/{115-134}.0.{1000-2500}.{0-150}
+
+# Opera (OPR token)
+OPR/{100-117}.0.{4000-5500}.{0-150}

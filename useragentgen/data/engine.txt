@@ -1,0 +1,14 @@
+# Engine strings by name
+# Referenced in configs.json as "engine": "name"
+
+# Chrome / Edge / Opera
+webkit_chrome = AppleWebKit/537.36 (KHTML, like Gecko)
+
+# Safari (desktop & iOS)
+webkit_safari = AppleWebKit/605.1.15 (KHTML, like Gecko)
+
+# Firefox (desktop)
+gecko = Gecko/20100101
+
+# Firefox (Android variant — version inline, no separate engine token)
+gecko_android = Gecko/{115-122}.0

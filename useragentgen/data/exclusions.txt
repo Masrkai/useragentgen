@@ -1,0 +1,25 @@
+# Browser-OS exclusion rules
+# Format: browser:os_substring_pattern
+# Lines starting with # are ignored
+
+# Safari was discontinued on Windows
+safari:Windows NT
+
+# Edge and Opera don't exist on iOS
+edge:iPhone
+edge:iPad
+opera:iPhone
+opera:iPad
+
+# Firefox on iOS uses WebKit (different UA format)
+# So exclude from our desktop Firefox generator
+firefox:iPhone
+firefox:iPad
+
+# Safari on Linux doesn't exist
+safari:Linux
+
+# Chrome on iOS uses WebKit (still valid but different)
+# Keep if you want, or uncomment to exclude:
+# chrome:iPhone
+# chrome:iPad

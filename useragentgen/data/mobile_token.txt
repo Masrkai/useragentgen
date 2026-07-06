@@ -1,0 +1,13 @@
+# Mobile token strings by name
+# Referenced in configs.json as "mobile_token": {"value": "name"}
+
+# iOS Safari (iPhone & iPad)
+ios_safari = Mobile/15E148
+
+# Chrome on Android
+android_chrome = Mobile Safari/537.36
+
+# Safari fallback tokens (desktop & iOS)
+safari_604 = Safari/604.1
+safari_605 = Safari/605.1.15
+safari_537 = Safari/537.36

@@ -1,0 +1,79 @@
+{
+  "chrome": {
+    "os_exclude": [
+      "ios"
+    ],
+    "engine": "webkit_chrome",
+    "version_prefix": "Chrome/",
+    "mobile_token": {
+      "if": "android",
+      "value": "android_chrome"
+    },
+    "suffix": "Safari/537.36"
+  },
+  "firefox": {
+    "os_allow": "*",
+    "engine": "gecko",
+    "version_prefix": [
+      "Firefox/",
+      {
+        "prefix": "rv:",
+        "os_exclude": [
+          "android",
+          "ios"
+        ]
+      }
+    ],
+    "mobile_token": null,
+    "suffix": null
+  },
+  "safari": {
+    "os_allow": [
+      "macos",
+      "ios",
+      "windows"
+    ],
+    "engine": "webkit_safari",
+    "version_prefix": "Version/",
+    "mobile_token": {
+      "if": "ios",
+      "value": "ios_safari"
+    },
+    "suffix": {
+      "method": "_safari_suffix"
+    }
+  },
+  "edge": {
+    "os_exclude": [
+      "ios"
+    ],
+    "engine": "webkit_chrome",
+    "version_prefix": "Edg/",
+    "mobile_token": {
+      "if": "android",
+      "value": "android_chrome"
+    },
+    "suffix": {
+      "template": "Chrome/{rnd}.0.0.0 Safari/537.36",
+      "rnd": [
+        115,
+        134
+      ]
+    }
+  },
+  "opera": {
+    "os_exclude": [
+      "ios"
+    ],
+    "engine": "webkit_chrome",
+    "version_prefix": "OPR/",
+    "mobile_token": null,
+    "suffix": {
+      "template": "Chrome/{rnd}.0.0.0 Safari/537.36",
+      "rnd": [
+        115,
+        134
+      ]
+    }
+  }
+}

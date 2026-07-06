@@ -1,0 +1,18 @@
+# Windows
+Windows NT 10.0; Win64; x64
+Windows NT 6.3; Win64; x64
+Windows NT 6.1; Win64; x64
+
+# macOS
+Macintosh; Intel Mac OS X {10|11|12|13|14|15}_{0|1|2|3|4|5|6|7}_0
+
+# Linux
+X11; {|Ubuntu; |Fedora; |Linux Mint; }Linux {x86_64|i686}
+
+# Android
+Linux; Android {11-15}; {Pixel 6|Pixel 7|Pixel 8|Pixel 9|Pixel 10}
+Linux; Android {11-15}; {SM-G991B|SM-G998B|SM-S918B|SM-A546B|SM-F946B}
+
+# iOS
+iPhone; CPU iPhone OS {15|16|17|18}_{0|1|2|3|4|5|6} like Mac OS X
+iPad; CPU OS {15|16|17|18}_{0|1|2|3|4|5|6} like Mac OS X
