@@ -4,7 +4,7 @@ build-backend = "hatchling.build"
 
 [project]
 name = "useragentgen"
-version = "1.0"
+version = "1.1"
 authors = [
     { name = "Masrkai" },
 ]
@@ -45,6 +45,9 @@ Issues = "https://github.com/Masrkai/useragentgen/issues"
 # ---------------------------------------------------------------------------
 # Hatchling: include data files (.txt templates + configs.json)
 # ---------------------------------------------------------------------------
+[project.scripts]
+useragent-gen = "useragentgen.cli:main"
+
 [tool.hatch.build.targets.wheel]
 packages = ["useragentgen"]
 
